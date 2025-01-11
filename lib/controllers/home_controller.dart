@@ -13,4 +13,10 @@ class HomeController extends GetxController{
     update();
   }
 
+  updateNote(NoteModel note, int index){
+    notes[index] = note;
+    update();
+  }
+
+
 }
